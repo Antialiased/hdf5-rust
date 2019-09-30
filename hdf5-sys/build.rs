@@ -342,7 +342,6 @@ mod windows {
 
     use serde::de::Error;
     use serde::{Deserialize, Deserializer};
-    use serde_derive::Deserialize;
     use winreg::enums::HKEY_LOCAL_MACHINE;
     use winreg::RegKey;
 
